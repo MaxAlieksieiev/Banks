@@ -9,9 +9,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 12px;
+}
+
 body {
   font-family: "Georgia", san-serif;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
   color: #4f4d6a;
 }
@@ -74,7 +78,7 @@ ul {
   color: #4f4d6a;
 }
 .logo__text {
-  font-size: 32px;
+  font-size: calc(32/12 * 1em);
   font-weight: 400;
 }
 .logo__text--italic {
@@ -87,13 +91,13 @@ ul {
   overflow: hidden;
 }
 .title__words {
-  font-size: 24px;
+  font-size: calc(24/12 * 1em);
   font-style: italic;
 }
 .title__words::after, .title__words::before {
   content: "";
   display: inline-flex;
-  vertical-align: middle;
+  verticalc-align: middle;
   width: 100%;
   height: 1px;
   background-color: #fff;
@@ -107,7 +111,7 @@ ul {
   margin-left: -100%;
 }
 .title__text {
-  font-size: 125px;
+  font-size: calc(125/12 * 1em);
   line-height: 130px;
   font-weight: 700;
   text-transform: uppercase;
@@ -115,15 +119,15 @@ ul {
 .title__desc {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: calc(18/12 * 1em);
   line-height: 24px;
   text-transform: uppercase;
 }
 .title__text--smaller {
-  font-size: 72px;
+  font-size: calc(72/12*1em);
 }
 .title--small {
-  font-size: 24px;
+  font-size: calc(24/12 * 1em);
   line-height: 30px;
   font-style: italic;
 }
@@ -135,7 +139,7 @@ ul {
 
 .button {
   font-family: "Georgia", san-serif;
-  font-size: 18px;
+  font-size: calc(18/12 * 1em);
   font-style: italic;
   color: #ffffff;
   padding: 15px 56px;
@@ -177,14 +181,14 @@ ul {
   margin-bottom: 20px;
 }
 .works__title {
-  font-size: 22px;
+  font-size: calc(22/12 * 1em);
   font-family: "Georgia", san-serif;
   font-style: italic;
 }
 .works__desc {
   font-family: "Georgia", san-serif;
   font-style: italic;
-  font-size: 12px;
+  font-size: calc(12/12 * 1em);
   line-height: 18px;
   text-align: left;
 }
@@ -208,7 +212,7 @@ ul {
 }
 .advantages__text {
   font-style: italic;
-  font-size: 12px;
+  font-size: calc(12/12 * 1em);
   line-height: 20px;
   margin-bottom: 28px;
 }
@@ -239,13 +243,13 @@ ul {
 }
 .footer__desc, .footer__text {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 12px;
+  font-size: calc(12/12 * 1em);
   line-height: 24px;
   margin-top: 25px;
 }
 .footer__copy {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 12px;
+  font-size: calc(12/12 * 1em);
   margin-top: 50px;
   display: block;
 }
