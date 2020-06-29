@@ -220,3 +220,32 @@ ul {
   background-color: #4f4d6a;
   border-radius: 4px;
 }
+
+.footer {
+  background-color: #505050;
+  color: #ffffff;
+}
+.footer__inner {
+  padding: 50px 0 85px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left-side {
+  max-width: 575px;
+  margin-right: 75px;
+}
+.footer__right-side {
+  width: 260px;
+}
+.footer__desc, .footer__text {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+.footer__copy {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  margin-top: 50px;
+  display: block;
+}

@@ -219,6 +219,36 @@ ul{
     }
 }
 
+.footer{
+    background-color: #505050;
+    color: #ffffff;
+    &__inner{
+        padding: 50px 0 85px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__left-side{
+        max-width: 575px;
+        margin-right: 75px;
+    }
+    &__right-side{
+        width: 260px;
+    }
+    &__desc,
+    &__text{
+        font-family: $title_font;
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 25px;
+    }
+    &__copy{
+        font-family: $title_font;
+        font-size: 12px;
+        margin-top: 50px;
+        display: block;
+    }
+}
     
 
   
