@@ -122,6 +122,11 @@ ul {
 .title__text--smaller {
   font-size: 72px;
 }
+.title--small {
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+}
 
 .buttons {
   display: flex;
@@ -185,4 +190,33 @@ ul {
 }
 .works__buttons {
   margin-top: 15px;
+}
+
+.advantages__inner {
+  padding: 60px 0 85px;
+}
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages__item {
+  width: 295px;
+  margin-right: 25px;
+}
+.advantages__item::last-child {
+  margin-right: 0;
+}
+.advantages__text {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 28px;
+}
+.advantages__link {
+  font-family: "Georgia", san-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 17px 7px 15px;
+  background-color: #4f4d6a;
+  border-radius: 4px;
 }

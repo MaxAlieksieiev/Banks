@@ -85,7 +85,6 @@ ul{
     &__words{
         font-size: 24px;
         font-style: italic;
-        
     }
     &__words::after,
     &__words::before{
@@ -119,6 +118,11 @@ ul{
     }
     &__text--smaller{
         font-size: 72px;
+    }
+    &--small{
+        font-size: 24px;
+        line-height: 30px;
+        font-style: italic;
     }
 }
 .buttons{
@@ -184,6 +188,36 @@ ul{
     }
 }
 
+.advantages{
+    &__inner{
+        padding: 60px 0 85px;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        width: 295px;
+        margin-right: 25px;
+    }
+    &__item::last-child{
+        margin-right: 0;
+    }
+    &__text{
+        font-style: italic;
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 28px;
+    }
+    &__link{
+        font-family: $font;
+        font-weight: 700;
+        color: #fff;
+        padding: 6px 17px 7px 15px;
+        background-color: #4f4d6a;
+        border-radius: 4px;
+    }
+}
 
     
 
