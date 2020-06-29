@@ -1,0 +1,24 @@
+
+@font-face{
+    font-family: 'Georgia';
+    src: url('/fonts/Georgia/Georgia.woff2') format('woff2'), 
+         url('/fonts/Georgia/Georgia.woff') format('woff');
+    font-weight: 400;
+}
+
+$main_font: 'Open Sans', Arial, sans-serif;
+$font_of_title: 'Georgia', ;
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
