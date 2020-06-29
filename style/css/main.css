@@ -119,6 +119,9 @@ ul {
   line-height: 24px;
   text-transform: uppercase;
 }
+.title__text--smaller {
+  font-size: 72px;
+}
 
 .buttons {
   display: flex;
@@ -138,4 +141,48 @@ ul {
 .button--active {
   background-color: #c2b0bb;
   margin-right: 0;
+}
+
+.works {
+  background-color: #ebebeb;
+}
+.works__inner {
+  padding: 65px 0 100px 0;
+}
+.works__top {
+  text-align: center;
+}
+.works__list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0;
+}
+.works__item {
+  width: 220px;
+  margin-right: 20px;
+}
+.works__item:last-child {
+  margin-right: 0;
+}
+.works__image {
+  border: 22px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.works__title {
+  font-size: 22px;
+  font-family: "Georgia", san-serif;
+  font-style: italic;
+}
+.works__desc {
+  font-family: "Georgia", san-serif;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+.works__buttons {
+  margin-top: 15px;
 }

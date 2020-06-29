@@ -117,6 +117,9 @@ ul{
         line-height: 24px;
         text-transform: uppercase;
     }
+    &__text--smaller{
+        font-size: 72px;
+    }
 }
 .buttons{
     display: flex;
@@ -136,3 +139,53 @@ ul{
         margin-right: 0;
     }
 }
+.works{
+    background-color: #ebebeb;
+    &__inner{
+        padding: 65px 0 100px 0;
+    }
+    &__top{
+        text-align: center;
+    }
+    &__list{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 0;
+    }
+    &__item{
+        width: 220px;
+        margin-right: 20px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__image{
+        border: 22px solid rgba(255, 255, 255, .2);
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    &__title{
+        font-size: 22px;
+        font-family: $font;
+        font-style: italic;
+    }
+    &__desc{
+        font-family: $font;
+        font-style: italic;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: left;
+        
+    }
+    &__buttons{
+        margin-top: 15px;
+    }
+}
+
+
+    
+
+  
+  
