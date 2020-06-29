@@ -9,6 +9,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Georgia", san-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #4f4d6a;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -17,4 +28,114 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  background-image: url("/images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.header__inner {
+  padding-top: 35px;
+  padding-bottom: 614px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__list {
+  display: flex;
+}
+.header__item {
+  margin-left: 30px;
+}
+.header__text {
+  padding-top: 70px;
+  text-align: center;
+}
+.header__buttons {
+  padding-top: 45px;
+}
+
+.logo {
+  color: #4f4d6a;
+}
+.logo__text {
+  font-size: 32px;
+  font-weight: 400;
+}
+.logo__text--italic {
+  font-style: italic;
+}
+
+.title {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ffffff;
+  overflow: hidden;
+}
+.title__words {
+  font-size: 24px;
+  font-style: italic;
+}
+.title__words::after, .title__words::before {
+  content: "";
+  display: inline-flex;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  border: solid #FFF;
+  border-width: 0 10px;
+}
+.title__words::after {
+  margin-right: -100%;
+}
+.title__words::before {
+  margin-left: -100%;
+}
+.title__text {
+  font-size: 125px;
+  line-height: 130px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.title__desc {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Georgia", san-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  padding: 15px 56px;
+  background-color: #615f7d;
+  margin-right: 20px;
+  border-radius: 21px;
+}
+.button--active {
+  background-color: #c2b0bb;
+  margin-right: 0;
 }
