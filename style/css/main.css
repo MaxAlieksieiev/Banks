@@ -3,6 +3,10 @@
   src: url("/fonts/Georgia/Georgia.woff2") format("woff2"), url("/fonts/Georgia/Georgia.woff") format("woff");
   font-weight: 400;
 }
+a:hover {
+  background-color: #c2b0bb;
+}
+
 *,
 *::after,
 *::before {

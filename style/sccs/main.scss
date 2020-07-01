@@ -8,6 +8,10 @@
 $title_font: 'Open Sans', Arial, sans-serif;
 $font: 'Georgia', san-serif;
 $main_color: #4f4d6a;
+
+%link_hover{
+    background-color: #c2b0bb;
+}
 *,
 *::after,
 *::before{
@@ -33,11 +37,15 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+a:hover{
+    @extend %link_hover;
+}
 .container{
     max-width: 960px;
     margin: 0 auto;
     padding: 0 16px;
 }
+
 .header{
     background-image: url('/images/header.jpg');
     background-size: cover;
@@ -226,7 +234,6 @@ ul{
         border-radius: 4px;
     }
 }
-
 .footer{
     background-color: #505050;
     color: #ffffff;
