@@ -1,0 +1,107 @@
+@media (max-width: 320px){
+    .header{
+        &__top{
+            justify-content: space-between;
+            margin-bottom: 250px;
+        }
+        &__menu{
+            display: none;
+            position: absolute;
+            top: 87px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 5;
+            
+        }
+        &__list{
+            flex-direction: column;
+            padding-left: 0;
+            width: 100%;
+            
+        }
+        &__item{
+            font-family: 'Georgia', san-serif;
+            font-size: calc(18/12 * 1em);
+            font-style: italic;
+            color: #ffffff;
+            padding: 15px 56px;
+            background-color: #615f7d;
+            margin: 0 20px 5px;
+            border-radius: 21px;
+            
+        }
+        &-mobile__item{
+            display: block;
+            width: 30px;
+            height: 5px;
+            background-color: #000000;
+            margin-bottom: 5px;
+            
+        }
+    }
+    .title{
+        &__text{
+            font-size: 65px;
+            line-height: 70px;
+        }
+    }
+    .button{
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 226px;
+        box-sizing: content-box;
+        text-align: center;
+    }
+    .works{
+       &__list{
+           flex-direction: column;
+           align-items: center;
+       } 
+       &__item{
+           text-align: center;
+           margin-bottom: 10px;
+       }
+       &__desc{
+           text-align: justify;
+       }
+    }
+    .advantages{
+        &__list{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+    .footer{
+        &__inner{
+            flex-wrap: wrap;
+        }
+        &__right-side,
+        &__left-side{
+            width: 100%;
+            text-align: justify;
+        }
+        &__left-side{
+            margin-right: 0;
+        }
+        &__right-side{
+            order: -1;
+            margin-bottom: 10px;
+            
+        }
+        &__copy{
+            text-align: center;
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .header__menu-list {
+      display: flex !important;
+    }
+  }
