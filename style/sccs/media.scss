@@ -1,4 +1,49 @@
-@media (min-width: 576px) {
+@media(min-width: 992px){
+    .works__list{
+        flex-wrap: nowrap;
+    }
+    .advantages__list{
+        flex-wrap: nowrap;
+    }
+}
+@media(min-width: 768px) and (max-width: 992px){
+    .header{
+        &-mobile{
+            display: none;
+        }
+    }
+    .works{
+        &__item{
+            flex-basis: calc(50% - 20px);
+            text-align: center;
+        }
+        
+    }
+    .advantages{
+        &__item{
+            flex-basis: calc(33% - 25px);
+            text-align: justify;
+        }
+        &__link{
+           margin: 0 auto;
+           display: table;
+        }
+    }
+}
+@media (min-width: 579px) and (max-width: 767px){
+    .header{
+        &__list{
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size:calc(16/12 * 1em);
+        }
+        &__item{
+            margin-left: 0;
+        }
+    }
+}
+@media (min-width: 576px) and (max-width:767px){
     .header{
         &__menu{
             display: none;
@@ -33,6 +78,10 @@
         &__title{
             text-align: center;
         }
+        &__item{
+            flex-basis: calc(50% - 20px);
+            text-align: center;
+        }
     }
     .advantages{
         &__list{
@@ -50,7 +99,7 @@
         text-align: left;
     }
 }
-@media (min-width: 320px) and (max-width: 575px){
+@media(min-width: 320px) and (max-width: 575px){
     .header{
         &__top{
             justify-content: space-between;
@@ -74,14 +123,19 @@
         }
         &__item{
             font-family: 'Georgia', san-serif;
-            font-size: calc(18/12 * 1em);
+            font-size: calc(16/12 * 1em);
             font-style: italic;
             color: #ffffff;
             padding: 15px 56px;
             background-color: #615f7d;
             margin: 0 20px 5px;
             border-radius: 21px;
-            
+            box-sizing: border-box;
+            text-align: center;
+            display: block;
+        }
+        .header__list > .header__item:hover{
+            background-color: #c2b0bb;
         }
         &-mobile__item{
             display: block;
@@ -114,6 +168,7 @@
        &__item{
            text-align: center;
            margin-bottom: 10px;
+           width: 100%;
        }
        &__desc{
            text-align: justify;
